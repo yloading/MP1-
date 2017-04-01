@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="main.js"></script>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<a href="addItems.html"> Add Items to Inventory </a> <br>
+<a href="addNewStock.html"> Add New Stock to Inventory </a> <br>
+<a href="updatePrice.html"> Update Price </a> <br>
+<a href="sales.html"> Sold Items </a>
+
+
+<br>
+<hr>
+<input type="text" id="searchInput" onkeyup="searchInv()" placeholder="Search">
+	<table id="invTable">
+	<thead>
+	<tr>
+	<th>Items</th>
+	<th>Quantity</th>
+	<th>Price(PHP)</th>
+	<th>Options</th>
+	</tr>
+	</thead>
+	<tbody id="tableBody">
+	</tbody>
+	</table>
+<p id="showTotal"></p>
+<a href="index.html"> Back </a>
+<a href="remit.html"> Remit </a>
+
+</body>
+</html>
