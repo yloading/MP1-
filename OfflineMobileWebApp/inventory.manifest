@@ -1,0 +1,13 @@
+CACHE MANIFEST
+CACHE:
+index.html
+inventory.html
+remit.html
+sales.html
+updatePrice.html
+addNewStock.html
+addItems.html
+main.css
+main.js
+NETWORK:
+*
